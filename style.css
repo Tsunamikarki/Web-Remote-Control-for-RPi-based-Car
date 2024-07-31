@@ -18,34 +18,48 @@ h3{
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* transform: translate(1%, 20%); */
+    /* justify-content: center; */
+    margin-top: 50px;
     flex-direction: column;
 
 }
 
-.arrow{
+.arrow-up, .arrow-down, .arrow-right, .arrow-left{
     position: relative;
-    background: white;
+    background-color: white;
     height: 50px;
     width: 50px;
-    border: 2px solid black;
+    text-align: center;
+    line-height: 50px;
+    border: 1.5px solid black;
     border-radius: 50%;
-    margin: 15px;
     transition: 0.4s ease;
-
+    margin-bottom: 10px;
 }
 
-.arrow:hover{
-    box-shadow: 0px 0px 20px 20px rgba(28, 129, 83, 0.2);
+.arrow-left{
+    float: left;
+    margin-right: 20px;
 }
 
-.arrow div {
-    position: absoslute;
+.arrow-right{
+    float: right;
+    margin-left: 20px; 
+    /* transform: rotate(135deg);  */
+}
+
+.arrow-up:hover, .arrow-down:hover, .arrow-right:hover, .arrow-left:hover{
+    background-color: rgb(99, 177, 155);
+    color: white;
+    box-shadow: 1px 0px 2px 2px rgba(25, 29, 28, 0.5);
+}
+
+/* .arrow div {
+    position: absolute;
     height: 50px;
     width: 40px;
-    border-top: 8px solid rgb(14, 11, 11);
-    border-left: 8px solid black;
-    transform: rotate(20deg);
-    left: 27.5px;
-    top: 35px;
-}
+    border-top: 15px solid #202020;
+    border-left: 20px solid #202020 ;
+    border-radius: 10px;
+} */

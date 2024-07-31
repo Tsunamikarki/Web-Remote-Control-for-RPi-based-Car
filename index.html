@@ -7,14 +7,35 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <form>
     <h1> Remote Controller </h1>
     <h3> RPi based Car</h3>
-    <div class = "Buttons">
-        <div class = "arrow up"></div>
-        <div class = "arrow left"> </div>
-        <div class = "arrow right"> </div>
-        <div class = "arrow down"> </div>
-    </div>
+    <!-- <div class = "Buttons">
+        <div class = "arrow-up"> F </div>
+        <div class = "middle">
+            <div class = "arrow-left"> L </div>
+            <div class = "arrow-right"> R </div>
+        </div>
+        <div class = "arrow-down"> B </div>
+    </div> -->
 
+    <div class = "Buttons">
+        <div>
+            <input class = "arrow-up" type="button" value="F"> 
+        </div> 
+        <div >
+            <div class="arrow-left" >
+                <input class="arrow-left" type="button" value="L">
+            </div>
+            <div class="arrow-right">
+                <input class="arrow-right" type="button" value="R">
+            </div>
+        </div>
+        <div >
+            <input class = "arrow-down" type="button" value="B">
+        </div>
+            
+    </div>
+    </form> 
 </body>
 </html>
