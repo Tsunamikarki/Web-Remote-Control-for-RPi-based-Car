@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(167, 204, 192);
+    background-color: rgb(228, 241, 237);
 }
 
 h1{
@@ -32,7 +32,7 @@ h3{
     width: 50px;
     text-align: center;
     line-height: 50px;
-    border: 1.5px solid black;
+    border: 1px solid black;
     border-radius: 50%;
     transition: 0.4s ease;
     margin-bottom: 10px;
@@ -55,11 +55,13 @@ h3{
     box-shadow: 1px 0px 2px 2px rgba(25, 29, 28, 0.5);
 }
 
-/* .arrow div {
-    position: absolute;
-    height: 50px;
-    width: 40px;
-    border-top: 15px solid #202020;
-    border-left: 20px solid #202020 ;
-    border-radius: 10px;
-} */
+.slidecontainer{
+    width: 100%;
+}
+
+.slider{
+    appearance: none;
+    width: 100%;
+    height: 20px;
+    background:rgb(166, 209, 196)
+}
